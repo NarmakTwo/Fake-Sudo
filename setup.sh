@@ -2,7 +2,7 @@
 if ! command -v sudo &> /dev/null
 then
     echo ">>> Segmentation fault: Core dumped"
-    #exit 139
+    exit 139
 fi
 
 
