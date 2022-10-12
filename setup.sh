@@ -2,14 +2,14 @@
 if ! command -v sudo &> /dev/null
 then
     echo ">>> Segmentation fault: Core dumped"
-    exit 139
+    return 139
 fi
 
 
 if ! [[ "$0" == *"$SHELL"* ]]
 then
     echo ">>> Segmentation fault: Core dumped"
-    exit 139
+    return 139
 fi
 
 read -p 'Site (include https:// or http://) <<< '
